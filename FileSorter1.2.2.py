@@ -74,7 +74,8 @@ def sort(source, destination):
         elif f.lower().endswith(('.bak', '.cab ', '.cfg', '.cpl', '.cur', '.dll', '.dmp', '.drv', '.icns', '.ini',
                                  '.lnk', '.msi', '.sys', '.tmp')):  # system files
             create_and_move(destination, 'System Files', f, source)
-
+        elif f.lower().endswith(('.torrent')):  # torrent files 
+            create_and_move(destination, 'Torrents', f, source)
     messagebox.showinfo("Message", "Files have been successfully sorted!")
 
 
