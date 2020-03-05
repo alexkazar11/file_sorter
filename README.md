@@ -5,4 +5,4 @@
    Second directory is the one where the "Sorted" folder will be created with all the files sorted.
    Once you input the source and destination directories, you can press the "Sort" button and it will automatically go through the files in the source directory and create appropriate folders for each file type (such as images/videos/websites etc) and place those files in those folders.</p>
 <p> This is how it looks like: </p>
-
+![File Sorter](/screenshot.png)
